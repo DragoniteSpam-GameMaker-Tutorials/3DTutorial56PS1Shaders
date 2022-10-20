@@ -81,6 +81,4 @@ for (var i = 0; i < n; i++) {
 }
 
 application_surface_draw_enable(false);
-surface_resize(application_surface, 1280, 720);
-//surface_resize(application_surface, 256, 144);      // 256x224
-//surface_resize(application_surface, 640, 360);    // 640x480
+surface_resize(application_surface, 256, 144);
