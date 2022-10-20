@@ -9,6 +9,7 @@
     {"id":{"name":"load_model","path":"scripts/load_model/load_model.yy",},"order":1,},
     {"id":{"name":"ts_main","path":"tilesets/ts_main/ts_main.yy",},"order":11,},
     {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},"order":2,},
+    {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":13,},
     {"id":{"name":"screen_to_world","path":"scripts/screen_to_world/screen_to_world.yy",},"order":3,},
     {"id":{"name":"shd_ps1","path":"shaders/shd_ps1/shd_ps1.yy",},"order":5,},
     {"id":{"name":"spr_main","path":"sprites/spr_main/spr_main.yy",},"order":10,},
@@ -53,6 +54,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"tree2.d3d","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"tree3.d3d","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"tree4.d3d","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"block.d3d","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
     "IDEVersion": "2022.9.1.51",

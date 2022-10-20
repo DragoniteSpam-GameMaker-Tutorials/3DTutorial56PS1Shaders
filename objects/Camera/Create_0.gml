@@ -59,6 +59,8 @@ vb_trees = [
     load_model("tree4.d3d"),
 ];
 
+vb_block = load_model("block.d3d");
+
 vb_trees_wireframes = [
     vertex_buffer_to_wireframe(vb_trees[0]),
     vertex_buffer_to_wireframe(vb_trees[1]),

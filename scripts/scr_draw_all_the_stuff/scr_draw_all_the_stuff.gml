@@ -10,9 +10,9 @@ function scr_draw_all_the_stuff() {
     vertex_submit(vb_merry, pr_trianglelist, -1);
     
     matrix_set(matrix_world, matrix_build(250, 300, 0, 0, 0, 0, 1, 1, 1));
-    vertex_submit(vb_sphere, pr_trianglelist, -1);
+    vertex_submit(vb_block, pr_trianglelist, sprite_get_texture(spr_block, 0));
     matrix_set(matrix_world, matrix_build(250, 350, 0, 0, 0, 0, 1, 1, 1));
-    vertex_submit(vb_sphere, pr_trianglelist, -1);
+    vertex_submit(vb_block, pr_trianglelist, sprite_get_texture(spr_block, 0));
     matrix_set(matrix_world, matrix_build(250, 400, 0, 0, 0, 0, 1, 1, 1));
     vertex_submit(vb_sphere, pr_trianglelist, -1);
     
