@@ -3,11 +3,14 @@ varying vec4 v_vColour;
 
 varying vec3 v_worldPosition;
 varying vec3 v_worldNormal;
+varying vec4 v_eyeSpacePosition;
 
 uniform vec3 lightDirection;
 
 void main() {
-    vec4 starting_color = v_vColour * texture2D(gm_BaseTexture, v_vTexcoord);
+    vec2 affine_uv = v_vTexcoord / v_eyeSpacePosition.z;
+    
+    vec4 starting_color = v_vColour * texture2D(gm_BaseTexture, affine_uv);
     
     vec4 lightAmbient = vec4(0.25, 0.25, 0.25, 1);
     vec3 lightDirection = normalize(lightDirection);
